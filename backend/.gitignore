@@ -1,0 +1,5 @@
+.env
+node_modules
+/config/redis.js
+/config/index.js
+/middleware/cacheMiddleware.js
