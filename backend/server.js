@@ -17,7 +17,10 @@ connectDB();
 app.use(express.json());
 app.use(
     cors({
-        origin: ["http://localhost:5173", "https://mentor-project.vercel.app"],
+        origin: [
+            "http://localhost:5173",
+            "https://gem-cook-9oiy.vercel.app/login",
+        ],
         methods: ["GET", "POST", "PUT", "DELETE"],
         credentials: true, // If you're using cookies or authentication
     })
